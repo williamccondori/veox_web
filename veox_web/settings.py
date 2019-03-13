@@ -25,7 +25,9 @@ SECRET_KEY = 'ky2&g$!7y2dh5vxnz6v$hzm*8q8--f)%_^ya%x*vfcsjr)-h#0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'veox-web.herokuapp.com'
+]
 
 
 # Application definition
