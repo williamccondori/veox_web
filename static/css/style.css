@@ -30,7 +30,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -126,9 +125,9 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 60px;
-  padding: 10px 0;
-  background-color: #3c4c94;
+  height: 80px;
+  padding: 20px 0;
+  background-color: #ffffff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -142,16 +141,9 @@ h6 {
   text-transform: uppercase;
 }
 
-#header .logo h1 a,
-#header .logo h1 a:hover {
-  color: #00366f;
-  text-decoration: none;
-}
-
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  max-height: 40px;
 }
 
 .main-pages {
@@ -194,7 +186,6 @@ h6 {
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
-  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -244,19 +235,18 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #f5f5f5;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: bold;
+  color: #ffffff;
 }
 
-.main-nav a:hover,
-.main-nav .active > a,
-.main-nav li:hover > a {
-  color: #ffffff;
-  text-decoration: none;
+#header.header-scrolled .main-nav a,
+#header.header-pages .main-nav a{
+  color: #04a49c;
 }
+
 
 .main-nav .drop-down ul {
   display: block;
@@ -268,8 +258,8 @@ h6 {
   visibility: hidden;
   padding: 10px 0;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
 .main-nav .drop-down:hover > ul {
@@ -679,7 +669,6 @@ h6 {
 }
 
 #why-us .counters span {
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
@@ -689,7 +678,6 @@ h6 {
 #why-us .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #cce5ff;
 }
@@ -1049,7 +1037,6 @@ h6 {
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1059,7 +1046,6 @@ h6 {
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Montserrat", sans-serif;
   color: #888;
 }
 
@@ -1183,7 +1169,6 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
   color: #fff;
   font-weight: 400;
   letter-spacing: 3px;
@@ -1194,7 +1179,6 @@ h6 {
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
   color: #ecf5ff;
 }
 
@@ -1389,10 +1373,52 @@ h6 {
   }
 }
 
+/** PARA OTRAS PAGINAS **/
+
 .veox-page-menu{
-  background-color: #003166 !important;
+  background-color: #fff !important;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+.veox-page-menu a{
+  color: #04a49c !important;
 }
 
 .veox-page{
   margin-top: 80px;
+}
+
+.veox-title{
+  color: #04A49C;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+/** PAGINA DE CONTACTO **/
+
+.veox-contact{
+  background-color: #FAFAFA;
+  padding: 50px;
+}
+
+.veox-contact-address span{
+  display: block;
+  font-size: 1em;
+  margin-bottom: 10px;
+  color: #004289;
+}
+
+.veox-contact-ident{
+  margin-left: 40px;
+}
+
+.veox-contact-address span i{
+  width: 30px;
+  height: 30px;
+  background-color: #004289;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 3px;
+  margin-right: 10px;
 }
