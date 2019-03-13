@@ -1,11 +1,9 @@
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
 
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 a {
@@ -123,14 +121,15 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 #header.header-scrolled,
 #header.header-pages {
   height: 60px;
   padding: 10px 0;
+  background-color: #3c4c94;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
 #header .logo h1 {
@@ -166,7 +165,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  /** background: url("") center bottom no-repeat; **/
+  background: url("../images/banner.jpeg") center center no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -189,7 +188,7 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
+  color: #04a49c;
   text-decoration: underline;
 }
 
@@ -229,17 +228,6 @@ h6 {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-
-/* Desktop Navigation */
-
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
-
 .main-nav,
 .main-nav * {
   margin: 0;
@@ -256,18 +244,17 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #f5f5f5;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -1178,15 +1165,13 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
-  padding: 0 0 30px 0;
   color: #eee;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #footer .footer-top {
-  background: #004a99;
-  padding: 60px 0 30px 0;
+  background-color: #263238;
+  padding: 60px 0 60px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -1214,18 +1199,16 @@ h6 {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #007bff;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
   width: 36px;
   height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  display: inline-block;
+  color: #fff;
+  margin-right: 5px;
+  text-align: center;
   transition: 0.3s;
+  border: 1px dotted #f5f5f5;
 }
 
 #footer .footer-top .social-links a:hover {
@@ -1302,6 +1285,7 @@ h6 {
 }
 
 #footer .copyright {
+  background-color: #263238;
   text-align: center;
   padding-top: 30px;
 }
@@ -1403,4 +1387,12 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
+}
+
+.veox-page-menu{
+  background-color: #003166 !important;
+}
+
+.veox-page{
+  margin-top: 80px;
 }
