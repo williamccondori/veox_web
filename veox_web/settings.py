@@ -26,7 +26,8 @@ SECRET_KEY = 'ky2&g$!7y2dh5vxnz6v$hzm*8q8--f)%_^ya%x*vfcsjr)-h#0'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'veox-web.herokuapp.com'
+    '127.0.0.1',
+    'veox-web.herokuapp.com',
 ]
 
 
