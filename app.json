@@ -1,0 +1,16 @@
+{
+    "name": "veox_web",
+    "scripts": {
+      "postdeploy": "python manage.py migrate --noinput"
+    },
+    "env": {
+    },
+    "formation": {
+    },
+    "addons": [
+  
+    ],
+    "buildpacks": [
+  
+    ]
+  }
