@@ -16,6 +16,7 @@
     <link href="{% static 'css/owl.carousel.min.css' %}" rel="stylesheet">
     <link href="{% static 'css/lightbox.min.css' %}" rel="stylesheet">
     <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/veox-style.css' %}" rel="stylesheet">
 </head>
 
 <body>
@@ -23,7 +24,8 @@
         <div id="header" class="fixed-top {% block menu %}{% endblock %}">
             <div class="container">
                 <div class="logo float-left">
-                    <a href="{% url 'index' %}" class="scrollto"><img src="{% static 'images/logo.png' %}" alt="logo" class="img-fluid"></a>
+                    <a href="{% url 'index' %}" class="scrollto"><img src="{% static 'images/logo.png' %}" alt="logo"
+                            class="img-fluid"></a>
                 </div>
                 <nav class="main-nav float-right d-none d-lg-block">
                     <ul>
@@ -41,58 +43,86 @@
     <section>
         {% block content %}{% endblock %}
     </section>
+
     <footer>
-        <div id="footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-sm-4 footer-info">
-                            <h3>VEOX</h3>
-                            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna
-                                derita
-                                valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis
-                                imperdiet
-                                proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+        <div id="veox--footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="menu">
+                            <div class="info">
+                                <img src="{% static 'images/logo.png' %}" alt="logo">
+                                <span>VEOX</span>
+                            </div>
+                            <ul>
+                                <li><a href="{% url 'index' %}">Inicio</a></li>
+                                <li><a href="">Nosotros</a></li>
+                                <li><a href="">Novedades</a></li>
+                                <li><a href="">Proyectos</a></li>
+                                <li><a href="{% url 'contact' %}">Contacto</a></li>
+                            </ul>
                         </div>
-                        <div class="col-12 col-sm-4 footer-newsletter">
-                            <h4>Our Newsletter</h4>
-                            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam
-                                illum dolore legam minim quorum culpa amet magna export quem marada parida nodela
-                                caramase
-                                seza.</p>
-                            <form action="" method="post">
-                                <input type="email" name="email"><input type="submit" value="Subscribe">
-                            </form>
+                    </div>
+                    <div class="col-sm-3">
+                        <h1 class="footer-title">Enlaces externos</h1>
+                    </div>
+                    <div class="col-sm-3">
+                        <h1 class="footer-title">Proyectos</h1>
+                        <div class="projects">
+                            <ul>
+                                <li><a href="https://www.facebook.com/ProyectoLevix" target="_blank">Proyecto
+                                        Atlantis</a></li>
+                            </ul>
                         </div>
-                        <div class="col-12 col-sm-4 footer-contact">
-                            <h4>Contacto</h4>
-                            <p>
-                                A108 Adam Street <br>
-                                New York, NY 535022<br>
-                                United States <br>
-                                <strong>Phone:</strong> +1 5589 55488 55<br>
-                                <strong>Email:</strong> info@example.com<br>
-                            </p>
-                            <div class="social-links">
-                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                    <div class="col-sm-3">
+                        <h1 class="footer-title">Información de contacto</h1>
+                        <div class="contact">
+                            <div class="form-group">
+                                <span><b><i class="fa fa-map-marker"></i>Dirección: </b></span>
+                                <span>Urbanización Luz y Alegría Mz. B2 Slt. 3 Paucarpata</span>
+                                <span><small>Arequipa - Perú</small></span>
+                            </div>
+                            <div class="form-group">
+                                <span><b><i class="fa fa-phone"></i>Teléfono: </b></span>
+                                <span>054-417397</span>
+                            </div>
+                            <div class="form-group">
+                                <span><b><i class="fa fa-envelope"></i>Correo electrónico: </b></span>
+                                <span>veox.soft.dev@gmail.com</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+        </div>
+        <div id="veox--footer-information">
             <div class="container">
-                <div class="copyright">
-                    &copy; Copyright <strong>VEOX</strong>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="social">
+                            <ul>
+                                <li><a href="https://www.facebook.com/veoxtech" target="_blank"><i
+                                            class="fa fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fa fa-twitter" target="_blank"></i></a></li>
+                                <li><a href=""><i class="fa fa-instagram" target="_blank"></i></a></li>
+                                <li><a href=""><i class="fa fa-youtube-play" target="_blank"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="copyright">
+                            <span>&copy; VEOX - 2019</span>
+                            <span>Todos los derechos reservados</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
+
     <a class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="{% static 'js/easing.min.js' %}"></script>
