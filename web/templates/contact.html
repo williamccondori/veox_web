@@ -4,73 +4,66 @@
 
 {% block content %}
 <section>
-  <div class="veox-page">
-    <div class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.0647844606515!2d-71.49612588497362!3d-16.421535843066877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b376885a799%3A0x6c0522da3cfb44d0!2sVEOX!5e0!3m2!1ses-419!2spe!4v1553710163357"
-        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    <div class="veox-contact">
+  <div class="veox--page">
+    <div class="veox--contact">
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <h1 class="veox-title">Contacto</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-sm-6">
-            <div class="veox-contact-address">
-              <h2>Encuentranos aqui!</h2>
-              <span><i class="fa fa-map-marker" aria-hidden="true"></i>A108 Adam Street</span>
-              <span class="veox-contact-ident"><b>Paucarpata - Arequipa</b></span>
-              <span class="veox-contact-ident"><b>Perú</b></span>
-              <span><i class="fa fa-phone" aria-hidden="true"></i><b>Teléfono:</b>&nbsp;&nbsp;+1 5589
-                55488 5</span>
-              <span><i class="fa fa-envelope" aria-hidden="true"></i><b>E-Mail:</b>&nbsp;&nbsp;info@example.com</span>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6">
-            <div class="veox-contact-social">
-              <h2>Síguenos!</h2>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12">
-            <div class="veox-contact-social">
-              <h2>Contáctate con nosotros!</h2>
-              <div class="form">
-                <div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
-                <form action="" method="post" role="form" class="contactForm">
-                  <div class="form-row">
-                    <div class="form-group col-lg-6">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                        data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                      <div class="validation"></div>
-                    </div>
-                    <div class="form-group col-lg-6">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                        data-rule="email" data-msg="Please enter a valid email" />
-                      <div class="validation"></div>
-                    </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="veox--title"><span>Información de contacto</span></h1>
+                <div class="contact">
+                  <div class="form-group">
+                    <span><b><i class="fa fa-map-marker"></i>Dirección: </b></span>
+                    <span>Urbanización Luz y Alegría Mz. B2 Slt. 3 Paucarpata</span>
+                    <span><small>Arequipa - Perú</small></span>
                   </div>
                   <div class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                      data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                    <div class="validation"></div>
+                    <span><b><i class="fa fa-phone"></i>Teléfono: </b></span>
+                    <span>054-417397</span>
                   </div>
                   <div class="form-group">
-                    <textarea class="form-control" name="message" rows="5" data-rule="required"
-                      data-msg="Please write something for us" placeholder="Message"></textarea>
-                    <div class="validation"></div>
+                    <span><b><i class="fa fa-envelope"></i>Correo electrónico: </b></span>
+                    <span>veox.soft.dev@gmail.com</span>
                   </div>
-                  <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
-                </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="veox--title"><span>Redes sociales</span></h1>
+                <div class="social">
+                  <ul>
+                    <li><a href="https://www.facebook.com/veoxtech" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href=""><i class="fa fa-twitter" target="_blank"></i></a></li>
+                    <li><a href=""><i class="fa fa-instagram" target="_blank"></i></a></li>
+                    <li><a href=""><i class="fa fa-youtube-play" target="_blank"></i></a></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-sm-12">
+              <div class="card">
+                  <div class="card-body">
+                    <h1 class="veox--title"><span>Contáctate con nosotros</span></h1>
+                    <div class="message">
+                      
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
       </div>
     </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.0647844606515!2d-71.49612588497362!3d-16.421535843066877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b376885a799%3A0x6c0522da3cfb44d0!2sVEOX!5e0!3m2!1ses-419!2spe!4v1553710163357"
+      width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </section>
 {% endblock %}

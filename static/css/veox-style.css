@@ -1,3 +1,29 @@
+.veox--page {
+  margin-top: 80px;
+}
+
+.veox--page iframe {
+  margin-bottom: -10px;
+}
+
+.veox--title {
+  margin: 0;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.veox--title span {
+  border-left: 4px solid #009688;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  color: #009688;
+  font-size: 18px;
+  letter-spacing: -.05em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
 #veox--footer {
   padding: 60px 0 60px 0;
   background-color: #ebebeb;
@@ -50,6 +76,10 @@
   font-size: 14px;
 }
 
+#veox--footer .contact i {
+  margin-right: 5px;
+}
+
 #veox--footer .projects {
   margin-bottom: 20px;
 }
@@ -58,14 +88,6 @@
   display: block;
   font-size: 14px;
   color: #4e4e56;
-}
-
-#veox--footer .contact {
-  margin-bottom: 20px;
-}
-
-#veox--footer .contact i {
-  margin-right: 5px;
 }
 
 #veox--footer-information {
@@ -105,5 +127,48 @@
 
 .back-to-top {
   background-color: #333;
+}
+
+.veox--contact {
+  padding: 50px 0 50px 0;
+}
+
+.veox--contact .card {
+  margin-bottom: 20px;
+  border: none;
+}
+
+.veox--contact .card .card-body {
+  padding: 0;
+}
+
+.veox--contact .card .contact span {
+  display: block;
+  font-size: 14px;
+}
+
+.veox--contact .card .contact i {
+  margin-right: 10px;
+}
+
+.veox--contact .card .social ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.veox--contact .card .social ul li {
+  display: inline-block;
+}
+
+.veox--contact .card .social ul li a {
+  background-color: #004085;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  /** border: 1px dotted #757575 **/
+  color: #eceff1;
 }
 /*# sourceMappingURL=veox-style.css.map */
