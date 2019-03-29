@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,700");
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+iframe {
+  margin-bottom: -5px;
+}
+
+.veox-container {
+  margin-bottom: 20px;
+}
+
+.veox-container h1 {
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-left: 5px solid #009688;
+  color: #009688;
+  letter-spacing: -.05em;
+}
+
+.veox-container h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #4e4e56;
+  letter-spacing: -.05em;
+}
+
+.veox-breadcrumb {
+  padding: 30px 0 30px 0;
+  background-color: #004085;
+}
+
+.veox-breadcrumb h1 {
+  display: inline-block;
+  margin: 0;
+  padding: 8px 10px 8px 10px;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #ebebeb;
+  margin-bottom: 10px;
+  background-color: #009688;
+}
+
+.veox-breadcrumb li {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  font-size: 1em;
+  background-color: #ebebeb;
+}
+
+.veox-breadcrumb li a {
+  color: #009688;
+}
+
+.veox-breadcrumb li span {
+  color: #4e4e56;
+}
+
+.veox-breadcrumb li i {
+  margin-right: 5px;
+}
+
+.veox-contact span {
+  display: block;
+  font-size: 1em;
+  color: #4e4e56;
+}
+
+.veox-contact span:first-child {
+  font-weight: bold;
+}
+
+.veox-contact i {
+  margin-right: 5px;
+}
+
+.veox-social li {
+  display: inline-block;
+}
+
+.veox-social li a {
+  display: block;
+  text-align: center;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+
+#veox-footer {
+  padding: 50px 0 50px 0;
+  background-color: #ebebeb;
+}
+
+#veox-footer .veox-footer-list li {
+  display: block;
+  padding: 3px 0 3px 0;
+}
+
+#veox-footer .veox-footer-list li a {
+  font-size: 1em;
+  color: #7d7d7d;
+  -webkit-transition: color ease-in-out 0.3s;
+  transition: color ease-in-out 0.3s;
+}
+
+#veox-footer .veox-footer-list li a:hover {
+  color: #4e4e56;
+}
+
+#veox-footer-information {
+  padding: 30px 0 10px 0;
+  background-color: #4e4e56;
+}
+
+#veox-footer-information .veox-container .veox-social a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #737373;
+  color: #adadad;
+}
+
+#veox-footer-information .veox-container .veox-social a:hover {
+  background-color: #ebebeb;
+  color: #4e4e56;
+  border-color: #ebebeb;
+}
+
+#veox-footer-information .veox-container .veox-copyright {
+  text-align: right;
+}
+
+#veox-footer-information .veox-container .veox-copyright span {
+  display: block;
+  font-size: 0.8em;
+  color: #ebebeb;
+}
+
+#veox-page-contact {
+  padding: 60px 0 40px 0;
+}
+
+#veox-page-contact .veox-contact-form input, #veox-page-contact .veox-contact-form textarea {
+  width: 80%;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-radius: 0;
+  padding: 15px;
+  background-color: #F5F5F5;
+  border-color: #F5F5F5;
+}
+
+#veox-page-contact .veox-social {
+  text-align: center;
+}
+
+#veox-page-contact .veox-social a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #004085;
+  background-color: #004085;
+  color: #ffffff;
+}
+
+#veox-page-contact .veox-social a:hover {
+  background-color: #009688;
+  border-color: #009688;
+}
+/*# sourceMappingURL=styles.css.map */

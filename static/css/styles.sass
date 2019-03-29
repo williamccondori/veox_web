@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700')
+
+$color-primary: #004085
+$color-secondary: #009688
+
+$color-one: #ebebeb
+$color-two: #4e4e56
+$color-three: #7d7d7d
+
+    
+$font-family: 'Ubuntu', sans-serif
+$font-size-title: 1.4em
+$font-size-link: 1em
+$font-size-text: 1em
+$font-size-small: 0.8em
+
+body
+    font-family: $font-family
+
+a
+    text-decoration: none !important
+
+ul
+    margin: 0
+    padding: 0
+    list-style: none
+
+label
+    margin-bottom: 5px
+    font-weight: bold
+
+iframe
+    margin-bottom: -5px
+
+.veox-container
+    margin-bottom: 20px
+
+    h1
+        margin: 0 
+        padding: 0
+        padding-left: 5px
+        margin-bottom: 20px
+        font-size: $font-size-title
+        font-weight: bold
+        text-transform: uppercase
+        border-left: 5px solid $color-secondary
+        color: $color-secondary
+        letter-spacing: -.05em
+    h3
+        margin: 0 
+        padding: 0
+        margin-bottom: 20px
+        font-size: $font-size-title
+        font-weight: bold
+        color: $color-two
+        letter-spacing: -.05em
+
+.veox-breadcrumb
+    padding: 30px 0 30px 0
+    background-color: $color-primary
+
+    h1
+        display: inline-block
+        margin: 0
+        padding: 8px 10px 8px 10px
+        text-transform: uppercase
+        font-size: $font-size-title
+        font-weight: bold
+        color: $color-one
+        margin-bottom: 10px
+        background-color: $color-secondary
+    li
+        display: inline-block
+        margin-right: 5px
+        padding: 5px 10px 5px 10px
+        font-weight: bold
+        font-size: $font-size-link
+        background-color: $color-one
+
+        a
+            color: $color-secondary
+        span
+            color: $color-two
+        i
+            margin-right: 5px
+
+
+
+
+.veox-contact
+    span
+        display: block
+        font-size: $font-size-text
+        color: $color-two
+    span:first-child
+        font-weight: bold
+    i
+        margin-right: 5px
+
+.veox-social
+    li
+        display: inline-block
+        a
+            display: block
+            text-align: center
+            transition: all ease-in-out 0.3s 
+
+#veox-footer 
+    padding: 50px 0 50px 0
+    background-color: $color-one
+
+    .veox-footer-list
+        li
+            display: block
+            padding: 3px 0 3px 0
+            a
+                font-size: $font-size-link
+                color: $color-three
+                transition: color ease-in-out 0.3s 
+            a:hover
+                color: $color-two
+
+#veox-footer-information
+    padding: 30px 0 10px 0
+    background-color: $color-two
+
+    .veox-container
+        .veox-social
+            a
+                width: 30px
+                height: 30px
+                line-height: 30px
+                border: 1px solid #737373
+                color: #adadad
+            a:hover
+                background-color: $color-one
+                color: $color-two
+                border-color: $color-one
+
+        .veox-copyright
+            text-align: right
+
+            span
+                display: block
+                font-size: $font-size-small
+                color: $color-one
+
+
+#veox-page-contact
+    padding: 60px 0 40px 0
+    .veox-contact-form
+        input, textarea
+            width: 80%
+            box-shadow: none !important
+            border-radius: 0
+            padding: 15px
+            background-color: #F5F5F5
+            border-color: #F5F5F5
+
+    .veox-social
+        text-align: center
+        a
+            width: 40px
+            height: 40px
+            line-height: 40px
+            border: 1px solid $color-primary
+            background-color: $color-primary
+            color: #ffffff
+        a:hover
+            background-color: $color-secondary
+            border-color: $color-secondary
