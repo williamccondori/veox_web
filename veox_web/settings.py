@@ -23,11 +23,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ky2&g$!7y2dh5vxnz6v$hzm*8q8--f)%_^ya%x*vfcsjr)-h#0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'veox-web.herokuapp.com',
+    'veox.tech'
 ]
 
 
